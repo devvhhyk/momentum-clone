@@ -1,0 +1,153 @@
+.hidden {
+  display: none;
+}
+
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 90%;
+  filter: brightness(70%)
+}
+
+#clock {
+  position: absolute;
+  font-size: 67px;
+  font-weight: 800;
+  top: 30vh;
+}
+
+#greeting {
+  position: absolute;
+  top: 25vh;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+#login-form span{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#login-form input {
+  margin-top: 15px;
+  margin-left: auto;
+  height: 30px;
+  width: 200px;
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  display: block;
+  background: 0;
+  border: 0;
+  border-bottom: 2px solid #fff;
+}
+
+#login-form input:focus {
+  display: block;
+  background: 0;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  outline: none;
+}
+
+#todo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50vh;
+}
+
+#todo-form span {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#todo-form input {
+  height: 30px;
+  width: 380px;
+  background: 0;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+#todo-form input:focus {
+  outline: none;
+}
+
+#todo-list {
+  position: absolute;
+  top: 37vh;
+  left: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#todo-list li {
+  display: flex;
+  align-items: center;
+}
+#todo-list span {
+  font-size: 20px;
+  margin: 2px 0;
+  margin-right: 5px;
+}
+
+#todo-list button {
+  background: 0;
+  border: 0;
+  outline: 0;
+  height: 5px;
+  width: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+#quote {
+  position: absolute;
+  top: 93vh;
+  left: auto;
+  display: flex;
+}
+
+#quote span{
+  margin-left: 5px;
+}
+
+#weather {
+  position: absolute;
+  top: 5vh;
+  right: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+#weather span {
+  margin-bottom: 5px;
+}
+
