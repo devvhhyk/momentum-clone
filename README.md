@@ -89,7 +89,7 @@ function deleteToDo(e) { // 투두리스트 삭제
   saveToDos()
 }
 
-```
+```jsx
 function paintToDo(newTodo) {
   const li = document.createElement("li");
   li.id = newTodo.id;
